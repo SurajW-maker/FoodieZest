@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve</title>
+    <link rel="stylesheet" href="reserve.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav data-aos="fade-down">
+    
+        <div class="logo">FoodieZest</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="#" class="reservation-btn">Reserve</a></li>
+        </ul>
+    </nav>
+
+    <section class="booking-section" id="book" data-aos="fade-up">
+  <h2 class="section-title">Reserve Your Table 🍽</h2>
+  <p class="section-subtitle">We recommend booking in advance to avoid waiting!</p>
+
+  <div class="booking-form">
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="tel" placeholder="Phone Number" required />
+      
+      <div class="form-row">
+        <input type="date" required />
+        <input type="time" required />
+      </div>
+
+      <select required>
+        <option value="">Select Number of Guests</option>
+        <option>1 Guest</option>
+        <option>2 Guests</option>
+        <option>3 Guests</option>
+        <option>4 Guests</option>
+        <option>5+ Guests</option>
+      </select>
+
+      <textarea placeholder="Any Special Request? (Optional)" rows="4"></textarea>
+      
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
