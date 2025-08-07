@@ -94,7 +94,7 @@ nav {
 }
 /* Header */
 .about-header {
-  background-image: url('images/bg 2.jpg');
+  background-image: url('bg 2.jpg');
   background-size: cover;
   background-position: center;
   height: 60vh;
@@ -280,4 +280,5 @@ nav {
     cursor: pointer;
     color: #e85d04;
   }
+
 }
